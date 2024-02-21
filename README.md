@@ -5,7 +5,7 @@ There have recently been significant worries regarding the manipulation and poss
 The suggested remedy entails a multi-step procedure that begins with careful video frame pre-processing. The frontal face detector in the dlib library is used to extract, crop, and resize facial regions into a standard 128x128-pixel format. Next, the InceptionResNetV2 architecture is used, and the pre-trained model is adjusted for the complex task of deepfake detection. Binary classification is made possible by a custom classifier that can discern between real and fake video frames. 
 In this research endeavor, we employed transfer learning with the InceptionResNetV2 architecture to address a binary image classification problem distinguishing between real and fake images. The InceptionResNetV2 model was pre-trained on ImageNet, and its convolutional layers were fine-tuned for our specific task. This transfer learning approach allows the model to leverage the rich hierarchical features learned from a diverse dataset.
 
-<img width="349" alt="Screenshot 2023-11-30 160719" src="https://github.com/ArishiGupta18/Deep-Fake-Detection-using-InceptionResNetV2/assets/85198302/fc2a5bc0-3964-4643-9543-5a3bbf33ee47">
+![Screenshot]<img width="260" alt="image" src="https://github.com/ArishiGupta18/DeepFake-Detection-Using-InceptionResNetV2/assets/85198302/63bddc8d-e739-4d80-af2b-43516cafef49">
 
 Fig1: Model Summary
 
