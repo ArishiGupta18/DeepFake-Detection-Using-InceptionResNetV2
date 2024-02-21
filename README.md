@@ -12,18 +12,20 @@ Fig1: Model Summary
 Our model architecture included a Global Average Pooling layer and a Dense layer with two units and softmax activation for binary classification. The model was trained over ten epochs using the Adam optimizer with a learning rate of 1e-5. The training process was monitored using a validation set to assess the model's generalization performance.
 The model is rigorously trained using a labeled dataset that includes both real and fake video frames. An Adam optimizer with a carefully selected learning rate is used to optimize parameters over multiple epochs.
 
-<img width="715" alt="image" src="https://github.com/ArishiGupta18/Deep-Fake-Detection-using-InceptionResNetV2/assets/85198302/53d636e6-c112-404c-92fa-3b1f6a6ddf6d">
+![image](https://github.com/ArishiGupta18/DeepFake-Detection-Using-InceptionResNetV2/assets/85198302/154c59ce-2015-4854-91b2-bcbb702d73ec)
+![image](https://github.com/ArishiGupta18/DeepFake-Detection-Using-InceptionResNetV2/assets/85198302/d88b0ae4-b62f-4b6d-a84a-e3e44b819db6)
+
 
 Fig2: Accuracy vs epoch and Loss vs epoch graph with explicit validation data
 
-<img width="718" alt="image" src="https://github.com/ArishiGupta18/Deep-Fake-Detection-using-InceptionResNetV2/assets/85198302/798d58c3-6d23-4d93-80c2-d9abc2b6b087">
+![image](https://github.com/ArishiGupta18/DeepFake-Detection-Using-InceptionResNetV2/assets/85198302/530d9831-7a1c-45d6-9e0a-6a02d13a8b7e) ![image](https://github.com/ArishiGupta18/DeepFake-Detection-Using-InceptionResNetV2/assets/85198302/74827e33-eb6d-4f70-84f4-394a64cf2147)
+
 
 Fig3: Accuracy vs epoch and Loss vs epoch graph with 15% validation data and early stopping
 
 
 The evaluation of our model involved a comprehensive analysis. The training history, including accuracy and loss, was visualized over epochs to identify trends and potential issues like overfitting or underfitting. Additionally, a confusion matrix was employed to examine the model's performance in terms of true positives, false positives, false negatives, and true negatives. Classification metrics such as precision, recall, and F1-score were computed to provide a nuanced understanding of the model's behavior.
 
-<img width="404" alt="image" src="https://github.com/ArishiGupta18/Deep-Fake-Detection-using-InceptionResNetV2/assets/85198302/32e741db-fb06-4ca5-b724-5be919097bf4">
 
 Fig4: Confusion Matrix
 
